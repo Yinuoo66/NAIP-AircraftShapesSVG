@@ -3,6 +3,8 @@
 This directory contains the corresponding source for the GPL aircraft-shape
 component used by the NAIP Browser VATSIM map layer.
 
+Public source repository: <https://github.com/Yinuoo66/NAIP-AircraftShapesSVG>
+
 ## Origin and license
 
 - Upstream: <https://github.com/RexKramer1/AircraftShapesSVG>
