@@ -1,0 +1,1005 @@
+{
+  "schema_version": "naip-aircraft-shapes-v1",
+  "license": "GPL-3.0-or-later",
+  "upstream_repository": "https://github.com/RexKramer1/AircraftShapesSVG",
+  "entries": [
+    {
+      "source_key": "A10",
+      "asset_name": "VATSIMGPL_A10",
+      "style_name": "naip-vatsim-gpl-a10"
+    },
+    {
+      "source_key": "A124",
+      "asset_name": "VATSIMGPL_A124",
+      "style_name": "naip-vatsim-gpl-a124"
+    },
+    {
+      "source_key": "A19N",
+      "asset_name": "VATSIMGPL_A19N",
+      "style_name": "naip-vatsim-gpl-a19n"
+    },
+    {
+      "source_key": "A20N",
+      "asset_name": "VATSIMGPL_A20N",
+      "style_name": "naip-vatsim-gpl-a20n"
+    },
+    {
+      "source_key": "A21N",
+      "asset_name": "VATSIMGPL_A21N",
+      "style_name": "naip-vatsim-gpl-a21n"
+    },
+    {
+      "source_key": "A225",
+      "asset_name": "VATSIMGPL_A225",
+      "style_name": "naip-vatsim-gpl-a225"
+    },
+    {
+      "source_key": "A306",
+      "asset_name": "VATSIMGPL_A306",
+      "style_name": "naip-vatsim-gpl-a306"
+    },
+    {
+      "source_key": "A310",
+      "asset_name": "VATSIMGPL_A310",
+      "style_name": "naip-vatsim-gpl-a310"
+    },
+    {
+      "source_key": "A318",
+      "asset_name": "VATSIMGPL_A318",
+      "style_name": "naip-vatsim-gpl-a318"
+    },
+    {
+      "source_key": "A320",
+      "asset_name": "VATSIMGPL_A320",
+      "style_name": "naip-vatsim-gpl-a320"
+    },
+    {
+      "source_key": "A321",
+      "asset_name": "VATSIMGPL_A321",
+      "style_name": "naip-vatsim-gpl-a321"
+    },
+    {
+      "source_key": "A332",
+      "asset_name": "VATSIMGPL_A332",
+      "style_name": "naip-vatsim-gpl-a332"
+    },
+    {
+      "source_key": "A333",
+      "asset_name": "VATSIMGPL_A333",
+      "style_name": "naip-vatsim-gpl-a333"
+    },
+    {
+      "source_key": "A337",
+      "asset_name": "VATSIMGPL_A337",
+      "style_name": "naip-vatsim-gpl-a337"
+    },
+    {
+      "source_key": "A338",
+      "asset_name": "VATSIMGPL_A338",
+      "style_name": "naip-vatsim-gpl-a338"
+    },
+    {
+      "source_key": "A339",
+      "asset_name": "VATSIMGPL_A339",
+      "style_name": "naip-vatsim-gpl-a339"
+    },
+    {
+      "source_key": "A342",
+      "asset_name": "VATSIMGPL_A342",
+      "style_name": "naip-vatsim-gpl-a342"
+    },
+    {
+      "source_key": "A343",
+      "asset_name": "VATSIMGPL_A343",
+      "style_name": "naip-vatsim-gpl-a343"
+    },
+    {
+      "source_key": "A345",
+      "asset_name": "VATSIMGPL_A345",
+      "style_name": "naip-vatsim-gpl-a345"
+    },
+    {
+      "source_key": "A346",
+      "asset_name": "VATSIMGPL_A346",
+      "style_name": "naip-vatsim-gpl-a346"
+    },
+    {
+      "source_key": "A359",
+      "asset_name": "VATSIMGPL_A359",
+      "style_name": "naip-vatsim-gpl-a359"
+    },
+    {
+      "source_key": "A35K",
+      "asset_name": "VATSIMGPL_A35K",
+      "style_name": "naip-vatsim-gpl-a35k"
+    },
+    {
+      "source_key": "A388",
+      "asset_name": "VATSIMGPL_A388",
+      "style_name": "naip-vatsim-gpl-a388"
+    },
+    {
+      "source_key": "A3ST",
+      "asset_name": "VATSIMGPL_A3ST",
+      "style_name": "naip-vatsim-gpl-a3st"
+    },
+    {
+      "source_key": "A4",
+      "asset_name": "VATSIMGPL_A4",
+      "style_name": "naip-vatsim-gpl-a4"
+    },
+    {
+      "source_key": "A400",
+      "asset_name": "VATSIMGPL_A400",
+      "style_name": "naip-vatsim-gpl-a400"
+    },
+    {
+      "source_key": "AJET",
+      "asset_name": "VATSIMGPL_AJET",
+      "style_name": "naip-vatsim-gpl-ajet"
+    },
+    {
+      "source_key": "AN12",
+      "asset_name": "VATSIMGPL_AN12",
+      "style_name": "naip-vatsim-gpl-an12"
+    },
+    {
+      "source_key": "AN26",
+      "asset_name": "VATSIMGPL_AN26",
+      "style_name": "naip-vatsim-gpl-an26"
+    },
+    {
+      "source_key": "AS21",
+      "asset_name": "VATSIMGPL_AS21",
+      "style_name": "naip-vatsim-gpl-as21"
+    },
+    {
+      "source_key": "AS32",
+      "asset_name": "VATSIMGPL_AS32",
+      "style_name": "naip-vatsim-gpl-as32"
+    },
+    {
+      "source_key": "AS65",
+      "asset_name": "VATSIMGPL_AS65",
+      "style_name": "naip-vatsim-gpl-as65"
+    },
+    {
+      "source_key": "AT45",
+      "asset_name": "VATSIMGPL_AT45",
+      "style_name": "naip-vatsim-gpl-at45"
+    },
+    {
+      "source_key": "AT75",
+      "asset_name": "VATSIMGPL_AT75",
+      "style_name": "naip-vatsim-gpl-at75"
+    },
+    {
+      "source_key": "ATP",
+      "asset_name": "VATSIMGPL_ATP",
+      "style_name": "naip-vatsim-gpl-atp"
+    },
+    {
+      "source_key": "B1 fast",
+      "asset_name": "VATSIMGPL_B1_fast",
+      "style_name": "naip-vatsim-gpl-b1_fast"
+    },
+    {
+      "source_key": "B1 slow",
+      "asset_name": "VATSIMGPL_B1_slow",
+      "style_name": "naip-vatsim-gpl-b1_slow"
+    },
+    {
+      "source_key": "B190",
+      "asset_name": "VATSIMGPL_B190",
+      "style_name": "naip-vatsim-gpl-b190"
+    },
+    {
+      "source_key": "B29",
+      "asset_name": "VATSIMGPL_B29",
+      "style_name": "naip-vatsim-gpl-b29"
+    },
+    {
+      "source_key": "B350",
+      "asset_name": "VATSIMGPL_B350",
+      "style_name": "naip-vatsim-gpl-b350"
+    },
+    {
+      "source_key": "B38M",
+      "asset_name": "VATSIMGPL_B38M",
+      "style_name": "naip-vatsim-gpl-b38m"
+    },
+    {
+      "source_key": "B39M",
+      "asset_name": "VATSIMGPL_B39M",
+      "style_name": "naip-vatsim-gpl-b39m"
+    },
+    {
+      "source_key": "B52",
+      "asset_name": "VATSIMGPL_B52",
+      "style_name": "naip-vatsim-gpl-b52"
+    },
+    {
+      "source_key": "B703",
+      "asset_name": "VATSIMGPL_B703",
+      "style_name": "naip-vatsim-gpl-b703"
+    },
+    {
+      "source_key": "B712",
+      "asset_name": "VATSIMGPL_B712",
+      "style_name": "naip-vatsim-gpl-b712"
+    },
+    {
+      "source_key": "B722",
+      "asset_name": "VATSIMGPL_B722",
+      "style_name": "naip-vatsim-gpl-b722"
+    },
+    {
+      "source_key": "B733",
+      "asset_name": "VATSIMGPL_B733",
+      "style_name": "naip-vatsim-gpl-b733"
+    },
+    {
+      "source_key": "B734",
+      "asset_name": "VATSIMGPL_B734",
+      "style_name": "naip-vatsim-gpl-b734"
+    },
+    {
+      "source_key": "B735",
+      "asset_name": "VATSIMGPL_B735",
+      "style_name": "naip-vatsim-gpl-b735"
+    },
+    {
+      "source_key": "B737",
+      "asset_name": "VATSIMGPL_B737",
+      "style_name": "naip-vatsim-gpl-b737"
+    },
+    {
+      "source_key": "B738",
+      "asset_name": "VATSIMGPL_B738",
+      "style_name": "naip-vatsim-gpl-b738"
+    },
+    {
+      "source_key": "B739",
+      "asset_name": "VATSIMGPL_B739",
+      "style_name": "naip-vatsim-gpl-b739"
+    },
+    {
+      "source_key": "B742",
+      "asset_name": "VATSIMGPL_B742",
+      "style_name": "naip-vatsim-gpl-b742"
+    },
+    {
+      "source_key": "B744",
+      "asset_name": "VATSIMGPL_B744",
+      "style_name": "naip-vatsim-gpl-b744"
+    },
+    {
+      "source_key": "B748",
+      "asset_name": "VATSIMGPL_B748",
+      "style_name": "naip-vatsim-gpl-b748"
+    },
+    {
+      "source_key": "B74S",
+      "asset_name": "VATSIMGPL_B74S",
+      "style_name": "naip-vatsim-gpl-b74s"
+    },
+    {
+      "source_key": "B752",
+      "asset_name": "VATSIMGPL_B752",
+      "style_name": "naip-vatsim-gpl-b752"
+    },
+    {
+      "source_key": "B753",
+      "asset_name": "VATSIMGPL_B753",
+      "style_name": "naip-vatsim-gpl-b753"
+    },
+    {
+      "source_key": "B762",
+      "asset_name": "VATSIMGPL_B762",
+      "style_name": "naip-vatsim-gpl-b762"
+    },
+    {
+      "source_key": "B763",
+      "asset_name": "VATSIMGPL_B763",
+      "style_name": "naip-vatsim-gpl-b763"
+    },
+    {
+      "source_key": "B764",
+      "asset_name": "VATSIMGPL_B764",
+      "style_name": "naip-vatsim-gpl-b764"
+    },
+    {
+      "source_key": "B772",
+      "asset_name": "VATSIMGPL_B772",
+      "style_name": "naip-vatsim-gpl-b772"
+    },
+    {
+      "source_key": "B773",
+      "asset_name": "VATSIMGPL_B773",
+      "style_name": "naip-vatsim-gpl-b773"
+    },
+    {
+      "source_key": "B779",
+      "asset_name": "VATSIMGPL_B779",
+      "style_name": "naip-vatsim-gpl-b779"
+    },
+    {
+      "source_key": "B77L",
+      "asset_name": "VATSIMGPL_B77L",
+      "style_name": "naip-vatsim-gpl-b77l"
+    },
+    {
+      "source_key": "B77W",
+      "asset_name": "VATSIMGPL_B77W",
+      "style_name": "naip-vatsim-gpl-b77w"
+    },
+    {
+      "source_key": "B788",
+      "asset_name": "VATSIMGPL_B788",
+      "style_name": "naip-vatsim-gpl-b788"
+    },
+    {
+      "source_key": "B789",
+      "asset_name": "VATSIMGPL_B789",
+      "style_name": "naip-vatsim-gpl-b789"
+    },
+    {
+      "source_key": "B78X",
+      "asset_name": "VATSIMGPL_B78X",
+      "style_name": "naip-vatsim-gpl-b78x"
+    },
+    {
+      "source_key": "BALL",
+      "asset_name": "VATSIMGPL_BALL",
+      "style_name": "naip-vatsim-gpl-ball"
+    },
+    {
+      "source_key": "BCS1",
+      "asset_name": "VATSIMGPL_BCS1",
+      "style_name": "naip-vatsim-gpl-bcs1"
+    },
+    {
+      "source_key": "BCS3",
+      "asset_name": "VATSIMGPL_BCS3",
+      "style_name": "naip-vatsim-gpl-bcs3"
+    },
+    {
+      "source_key": "BLCF",
+      "asset_name": "VATSIMGPL_BLCF",
+      "style_name": "naip-vatsim-gpl-blcf"
+    },
+    {
+      "source_key": "BN2P",
+      "asset_name": "VATSIMGPL_BN2P",
+      "style_name": "naip-vatsim-gpl-bn2p"
+    },
+    {
+      "source_key": "C130",
+      "asset_name": "VATSIMGPL_C130",
+      "style_name": "naip-vatsim-gpl-c130"
+    },
+    {
+      "source_key": "C160",
+      "asset_name": "VATSIMGPL_C160",
+      "style_name": "naip-vatsim-gpl-c160"
+    },
+    {
+      "source_key": "C17",
+      "asset_name": "VATSIMGPL_C17",
+      "style_name": "naip-vatsim-gpl-c17"
+    },
+    {
+      "source_key": "C172",
+      "asset_name": "VATSIMGPL_C172",
+      "style_name": "naip-vatsim-gpl-c172"
+    },
+    {
+      "source_key": "C2",
+      "asset_name": "VATSIMGPL_C2",
+      "style_name": "naip-vatsim-gpl-c2"
+    },
+    {
+      "source_key": "C208",
+      "asset_name": "VATSIMGPL_C208",
+      "style_name": "naip-vatsim-gpl-c208"
+    },
+    {
+      "source_key": "C25B",
+      "asset_name": "VATSIMGPL_C25B",
+      "style_name": "naip-vatsim-gpl-c25b"
+    },
+    {
+      "source_key": "C295",
+      "asset_name": "VATSIMGPL_C295",
+      "style_name": "naip-vatsim-gpl-c295"
+    },
+    {
+      "source_key": "C5M",
+      "asset_name": "VATSIMGPL_C5M",
+      "style_name": "naip-vatsim-gpl-c5m"
+    },
+    {
+      "source_key": "C750",
+      "asset_name": "VATSIMGPL_C750",
+      "style_name": "naip-vatsim-gpl-c750"
+    },
+    {
+      "source_key": "CL2T",
+      "asset_name": "VATSIMGPL_CL2T",
+      "style_name": "naip-vatsim-gpl-cl2t"
+    },
+    {
+      "source_key": "CN35",
+      "asset_name": "VATSIMGPL_CN35",
+      "style_name": "naip-vatsim-gpl-cn35"
+    },
+    {
+      "source_key": "CRJ2",
+      "asset_name": "VATSIMGPL_CRJ2",
+      "style_name": "naip-vatsim-gpl-crj2"
+    },
+    {
+      "source_key": "CRJ7",
+      "asset_name": "VATSIMGPL_CRJ7",
+      "style_name": "naip-vatsim-gpl-crj7"
+    },
+    {
+      "source_key": "CRJ9",
+      "asset_name": "VATSIMGPL_CRJ9",
+      "style_name": "naip-vatsim-gpl-crj9"
+    },
+    {
+      "source_key": "CRJX",
+      "asset_name": "VATSIMGPL_CRJX",
+      "style_name": "naip-vatsim-gpl-crjx"
+    },
+    {
+      "source_key": "CVN-65",
+      "asset_name": "VATSIMGPL_CVN_65",
+      "style_name": "naip-vatsim-gpl-cvn_65"
+    },
+    {
+      "source_key": "D228",
+      "asset_name": "VATSIMGPL_D228",
+      "style_name": "naip-vatsim-gpl-d228"
+    },
+    {
+      "source_key": "D328",
+      "asset_name": "VATSIMGPL_D328",
+      "style_name": "naip-vatsim-gpl-d328"
+    },
+    {
+      "source_key": "DA42",
+      "asset_name": "VATSIMGPL_DA42",
+      "style_name": "naip-vatsim-gpl-da42"
+    },
+    {
+      "source_key": "DC10",
+      "asset_name": "VATSIMGPL_DC10",
+      "style_name": "naip-vatsim-gpl-dc10"
+    },
+    {
+      "source_key": "DC3",
+      "asset_name": "VATSIMGPL_DC3",
+      "style_name": "naip-vatsim-gpl-dc3"
+    },
+    {
+      "source_key": "DC87",
+      "asset_name": "VATSIMGPL_DC87",
+      "style_name": "naip-vatsim-gpl-dc87"
+    },
+    {
+      "source_key": "DH8C",
+      "asset_name": "VATSIMGPL_DH8C",
+      "style_name": "naip-vatsim-gpl-dh8c"
+    },
+    {
+      "source_key": "DH8D",
+      "asset_name": "VATSIMGPL_DH8D",
+      "style_name": "naip-vatsim-gpl-dh8d"
+    },
+    {
+      "source_key": "DO27",
+      "asset_name": "VATSIMGPL_DO27",
+      "style_name": "naip-vatsim-gpl-do27"
+    },
+    {
+      "source_key": "DO28",
+      "asset_name": "VATSIMGPL_DO28",
+      "style_name": "naip-vatsim-gpl-do28"
+    },
+    {
+      "source_key": "E170",
+      "asset_name": "VATSIMGPL_E170",
+      "style_name": "naip-vatsim-gpl-e170"
+    },
+    {
+      "source_key": "E195",
+      "asset_name": "VATSIMGPL_E195",
+      "style_name": "naip-vatsim-gpl-e195"
+    },
+    {
+      "source_key": "E300",
+      "asset_name": "VATSIMGPL_E300",
+      "style_name": "naip-vatsim-gpl-e300"
+    },
+    {
+      "source_key": "E35L",
+      "asset_name": "VATSIMGPL_E35L",
+      "style_name": "naip-vatsim-gpl-e35l"
+    },
+    {
+      "source_key": "E390",
+      "asset_name": "VATSIMGPL_E390",
+      "style_name": "naip-vatsim-gpl-e390"
+    },
+    {
+      "source_key": "E3CF",
+      "asset_name": "VATSIMGPL_E3CF",
+      "style_name": "naip-vatsim-gpl-e3cf"
+    },
+    {
+      "source_key": "E3TF",
+      "asset_name": "VATSIMGPL_E3TF",
+      "style_name": "naip-vatsim-gpl-e3tf"
+    },
+    {
+      "source_key": "E737",
+      "asset_name": "VATSIMGPL_E737",
+      "style_name": "naip-vatsim-gpl-e737"
+    },
+    {
+      "source_key": "E8",
+      "asset_name": "VATSIMGPL_E8",
+      "style_name": "naip-vatsim-gpl-e8"
+    },
+    {
+      "source_key": "EC20",
+      "asset_name": "VATSIMGPL_EC20",
+      "style_name": "naip-vatsim-gpl-ec20"
+    },
+    {
+      "source_key": "EC35",
+      "asset_name": "VATSIMGPL_EC35",
+      "style_name": "naip-vatsim-gpl-ec35"
+    },
+    {
+      "source_key": "EC45",
+      "asset_name": "VATSIMGPL_EC45",
+      "style_name": "naip-vatsim-gpl-ec45"
+    },
+    {
+      "source_key": "EUFI",
+      "asset_name": "VATSIMGPL_EUFI",
+      "style_name": "naip-vatsim-gpl-eufi"
+    },
+    {
+      "source_key": "F15",
+      "asset_name": "VATSIMGPL_F15",
+      "style_name": "naip-vatsim-gpl-f15"
+    },
+    {
+      "source_key": "F16",
+      "asset_name": "VATSIMGPL_F16",
+      "style_name": "naip-vatsim-gpl-f16"
+    },
+    {
+      "source_key": "F18H",
+      "asset_name": "VATSIMGPL_F18H",
+      "style_name": "naip-vatsim-gpl-f18h"
+    },
+    {
+      "source_key": "F18S",
+      "asset_name": "VATSIMGPL_F18S",
+      "style_name": "naip-vatsim-gpl-f18s"
+    },
+    {
+      "source_key": "F22",
+      "asset_name": "VATSIMGPL_F22",
+      "style_name": "naip-vatsim-gpl-f22"
+    },
+    {
+      "source_key": "F35",
+      "asset_name": "VATSIMGPL_F35",
+      "style_name": "naip-vatsim-gpl-f35"
+    },
+    {
+      "source_key": "F406",
+      "asset_name": "VATSIMGPL_F406",
+      "style_name": "naip-vatsim-gpl-f406"
+    },
+    {
+      "source_key": "F5",
+      "asset_name": "VATSIMGPL_F5",
+      "style_name": "naip-vatsim-gpl-f5"
+    },
+    {
+      "source_key": "F50",
+      "asset_name": "VATSIMGPL_F50",
+      "style_name": "naip-vatsim-gpl-f50"
+    },
+    {
+      "source_key": "FA7X",
+      "asset_name": "VATSIMGPL_FA7X",
+      "style_name": "naip-vatsim-gpl-fa7x"
+    },
+    {
+      "source_key": "GAZL",
+      "asset_name": "VATSIMGPL_GAZL",
+      "style_name": "naip-vatsim-gpl-gazl"
+    },
+    {
+      "source_key": "GL5T",
+      "asset_name": "VATSIMGPL_GL5T",
+      "style_name": "naip-vatsim-gpl-gl5t"
+    },
+    {
+      "source_key": "GLF6",
+      "asset_name": "VATSIMGPL_GLF6",
+      "style_name": "naip-vatsim-gpl-glf6"
+    },
+    {
+      "source_key": "GYRO",
+      "asset_name": "VATSIMGPL_GYRO",
+      "style_name": "naip-vatsim-gpl-gyro"
+    },
+    {
+      "source_key": "H47",
+      "asset_name": "VATSIMGPL_H47",
+      "style_name": "naip-vatsim-gpl-h47"
+    },
+    {
+      "source_key": "H60",
+      "asset_name": "VATSIMGPL_H60",
+      "style_name": "naip-vatsim-gpl-h60"
+    },
+    {
+      "source_key": "H64",
+      "asset_name": "VATSIMGPL_H64",
+      "style_name": "naip-vatsim-gpl-h64"
+    },
+    {
+      "source_key": "HAWK",
+      "asset_name": "VATSIMGPL_HAWK",
+      "style_name": "naip-vatsim-gpl-hawk"
+    },
+    {
+      "source_key": "HUNT",
+      "asset_name": "VATSIMGPL_HUNT",
+      "style_name": "naip-vatsim-gpl-hunt"
+    },
+    {
+      "source_key": "IL62",
+      "asset_name": "VATSIMGPL_IL62",
+      "style_name": "naip-vatsim-gpl-il62"
+    },
+    {
+      "source_key": "IL76",
+      "asset_name": "VATSIMGPL_IL76",
+      "style_name": "naip-vatsim-gpl-il76"
+    },
+    {
+      "source_key": "J328",
+      "asset_name": "VATSIMGPL_J328",
+      "style_name": "naip-vatsim-gpl-j328"
+    },
+    {
+      "source_key": "K35E",
+      "asset_name": "VATSIMGPL_K35E",
+      "style_name": "naip-vatsim-gpl-k35e"
+    },
+    {
+      "source_key": "KC2",
+      "asset_name": "VATSIMGPL_KC2",
+      "style_name": "naip-vatsim-gpl-kc2"
+    },
+    {
+      "source_key": "KC46",
+      "asset_name": "VATSIMGPL_KC46",
+      "style_name": "naip-vatsim-gpl-kc46"
+    },
+    {
+      "source_key": "L159",
+      "asset_name": "VATSIMGPL_L159",
+      "style_name": "naip-vatsim-gpl-l159"
+    },
+    {
+      "source_key": "LJ35",
+      "asset_name": "VATSIMGPL_LJ35",
+      "style_name": "naip-vatsim-gpl-lj35"
+    },
+    {
+      "source_key": "LYNX",
+      "asset_name": "VATSIMGPL_LYNX",
+      "style_name": "naip-vatsim-gpl-lynx"
+    },
+    {
+      "source_key": "M326",
+      "asset_name": "VATSIMGPL_M326",
+      "style_name": "naip-vatsim-gpl-m326"
+    },
+    {
+      "source_key": "MD11",
+      "asset_name": "VATSIMGPL_MD11",
+      "style_name": "naip-vatsim-gpl-md11"
+    },
+    {
+      "source_key": "MI24",
+      "asset_name": "VATSIMGPL_MI24",
+      "style_name": "naip-vatsim-gpl-mi24"
+    },
+    {
+      "source_key": "MIRA",
+      "asset_name": "VATSIMGPL_MIRA",
+      "style_name": "naip-vatsim-gpl-mira"
+    },
+    {
+      "source_key": "MRF1",
+      "asset_name": "VATSIMGPL_MRF1",
+      "style_name": "naip-vatsim-gpl-mrf1"
+    },
+    {
+      "source_key": "NH90",
+      "asset_name": "VATSIMGPL_NH90",
+      "style_name": "naip-vatsim-gpl-nh90"
+    },
+    {
+      "source_key": "P1",
+      "asset_name": "VATSIMGPL_P1",
+      "style_name": "naip-vatsim-gpl-p1"
+    },
+    {
+      "source_key": "P180",
+      "asset_name": "VATSIMGPL_P180",
+      "style_name": "naip-vatsim-gpl-p180"
+    },
+    {
+      "source_key": "P28A",
+      "asset_name": "VATSIMGPL_P28A",
+      "style_name": "naip-vatsim-gpl-p28a"
+    },
+    {
+      "source_key": "P3",
+      "asset_name": "VATSIMGPL_P3",
+      "style_name": "naip-vatsim-gpl-p3"
+    },
+    {
+      "source_key": "P8",
+      "asset_name": "VATSIMGPL_P8",
+      "style_name": "naip-vatsim-gpl-p8"
+    },
+    {
+      "source_key": "PA46",
+      "asset_name": "VATSIMGPL_PA46",
+      "style_name": "naip-vatsim-gpl-pa46"
+    },
+    {
+      "source_key": "PC12",
+      "asset_name": "VATSIMGPL_PC12",
+      "style_name": "naip-vatsim-gpl-pc12"
+    },
+    {
+      "source_key": "PC6T",
+      "asset_name": "VATSIMGPL_PC6T",
+      "style_name": "naip-vatsim-gpl-pc6t"
+    },
+    {
+      "source_key": "PC9",
+      "asset_name": "VATSIMGPL_PC9",
+      "style_name": "naip-vatsim-gpl-pc9"
+    },
+    {
+      "source_key": "Q4",
+      "asset_name": "VATSIMGPL_Q4",
+      "style_name": "naip-vatsim-gpl-q4"
+    },
+    {
+      "source_key": "R135",
+      "asset_name": "VATSIMGPL_R135",
+      "style_name": "naip-vatsim-gpl-r135"
+    },
+    {
+      "source_key": "R44",
+      "asset_name": "VATSIMGPL_R44",
+      "style_name": "naip-vatsim-gpl-r44"
+    },
+    {
+      "source_key": "RFAL",
+      "asset_name": "VATSIMGPL_RFAL",
+      "style_name": "naip-vatsim-gpl-rfal"
+    },
+    {
+      "source_key": "RJ85",
+      "asset_name": "VATSIMGPL_RJ85",
+      "style_name": "naip-vatsim-gpl-rj85"
+    },
+    {
+      "source_key": "S61",
+      "asset_name": "VATSIMGPL_S61",
+      "style_name": "naip-vatsim-gpl-s61"
+    },
+    {
+      "source_key": "SB39",
+      "asset_name": "VATSIMGPL_SB39",
+      "style_name": "naip-vatsim-gpl-sb39"
+    },
+    {
+      "source_key": "SC7",
+      "asset_name": "VATSIMGPL_SC7",
+      "style_name": "naip-vatsim-gpl-sc7"
+    },
+    {
+      "source_key": "SF25",
+      "asset_name": "VATSIMGPL_SF25",
+      "style_name": "naip-vatsim-gpl-sf25"
+    },
+    {
+      "source_key": "SF34",
+      "asset_name": "VATSIMGPL_SF34",
+      "style_name": "naip-vatsim-gpl-sf34"
+    },
+    {
+      "source_key": "SGUP",
+      "asset_name": "VATSIMGPL_SGUP",
+      "style_name": "naip-vatsim-gpl-sgup"
+    },
+    {
+      "source_key": "SR22",
+      "asset_name": "VATSIMGPL_SR22",
+      "style_name": "naip-vatsim-gpl-sr22"
+    },
+    {
+      "source_key": "ST75",
+      "asset_name": "VATSIMGPL_ST75",
+      "style_name": "naip-vatsim-gpl-st75"
+    },
+    {
+      "source_key": "SU95",
+      "asset_name": "VATSIMGPL_SU95",
+      "style_name": "naip-vatsim-gpl-su95"
+    },
+    {
+      "source_key": "T204",
+      "asset_name": "VATSIMGPL_T204",
+      "style_name": "naip-vatsim-gpl-t204"
+    },
+    {
+      "source_key": "T38",
+      "asset_name": "VATSIMGPL_T38",
+      "style_name": "naip-vatsim-gpl-t38"
+    },
+    {
+      "source_key": "TIGR",
+      "asset_name": "VATSIMGPL_TIGR",
+      "style_name": "naip-vatsim-gpl-tigr"
+    },
+    {
+      "source_key": "TOR fast",
+      "asset_name": "VATSIMGPL_TOR_fast",
+      "style_name": "naip-vatsim-gpl-tor_fast"
+    },
+    {
+      "source_key": "TOR slow",
+      "asset_name": "VATSIMGPL_TOR_slow",
+      "style_name": "naip-vatsim-gpl-tor_slow"
+    },
+    {
+      "source_key": "U2",
+      "asset_name": "VATSIMGPL_U2",
+      "style_name": "naip-vatsim-gpl-u2"
+    },
+    {
+      "source_key": "UH1",
+      "asset_name": "VATSIMGPL_UH1",
+      "style_name": "naip-vatsim-gpl-uh1"
+    },
+    {
+      "source_key": "Unidentified",
+      "asset_name": "VATSIMGPL_Unidentified",
+      "style_name": "naip-vatsim-gpl-unidentified"
+    },
+    {
+      "source_key": "V22 fast",
+      "asset_name": "VATSIMGPL_V22_fast",
+      "style_name": "naip-vatsim-gpl-v22_fast"
+    },
+    {
+      "source_key": "V22 slow",
+      "asset_name": "VATSIMGPL_V22_slow",
+      "style_name": "naip-vatsim-gpl-v22_slow"
+    },
+    {
+      "source_key": "VF35",
+      "asset_name": "VATSIMGPL_VF35",
+      "style_name": "naip-vatsim-gpl-vf35"
+    }
+  ],
+  "designator_aliases": {
+    "A300": "A306",
+    "A319": "A19N",
+    "A330": "A333",
+    "A350": "A359",
+    "A380": "A388",
+    "A220": "BCS3",
+    "AN124": "A124",
+    "AT43": "AT45",
+    "AT72": "AT75",
+    "AT73": "AT75",
+    "AT76": "AT75",
+    "B717": "B712",
+    "B727": "B722",
+    "B736": "B737",
+    "B741": "B742",
+    "B743": "B744",
+    "B757": "B752",
+    "B767": "B763",
+    "B777": "B772",
+    "B778": "B779",
+    "B787": "B789",
+    "DH8": "DH8D",
+    "E175": "E170",
+    "E190": "E195"
+  },
+  "component_fallbacks": {
+    "generic": "Unidentified",
+    "helicopter": "EC45",
+    "glider": "SGUP",
+    "bizjet": "C25B",
+    "cessna-piston": "C172",
+    "cessna-caravan": "C208",
+    "piper-cirrus": "SR22",
+    "pc12": "PC12",
+    "beech-twin": "B350",
+    "atr42": "AT45",
+    "atr72": "AT75",
+    "dash8": "DH8D",
+    "saab340": "SF34",
+    "ma60": "AT75",
+    "y12": "BN2P",
+    "y20": "C17",
+    "crj": "CRJ9",
+    "erj": "E170",
+    "ejet": "E195",
+    "fokker": "F50",
+    "md80-family": "DC87",
+    "dc10": "DC10",
+    "md11": "MD11",
+    "il62": "IL62",
+    "il76": "IL76",
+    "an124": "A124",
+    "arj21": "E195",
+    "c919": "A320",
+    "a220": "BCS3",
+    "a300": "A306",
+    "a310": "A310",
+    "a318": "A318",
+    "a319": "A19N",
+    "a320": "A320",
+    "a321": "A321",
+    "a330": "A333",
+    "a340": "A346",
+    "a350": "A359",
+    "a380": "A388",
+    "b717": "B712",
+    "b727": "B722",
+    "b737-classic": "B735",
+    "b737-ng": "B738",
+    "b737-max": "B38M",
+    "b747": "B744",
+    "b757": "B752",
+    "b767": "B763",
+    "b777": "B772",
+    "b777-200": "B772",
+    "b777-200lr-f": "B77L",
+    "b777-300": "B773",
+    "b777-300er": "B77W",
+    "b777-8": "B779",
+    "b777-9": "B779",
+    "b787": "B789"
+  },
+  "modifications": [
+    "fill color",
+    "stroke color",
+    "stroke width"
+  ]
+}

@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ns0:svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.w3.org/2000/svg" xmlns:ns1="http://www.inkscape.org/namespaces/inkscape" xmlns:ns2="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:ns4="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" width="44" height="44" viewBox="-20 -33 80 80" version="1.1" id="svg1542" ns1:version="1.2.1 (9c6d41e410, 2022-07-14)" ns2:docname="Q4 mit Bitmap.svg">
+  <!-- Derived for NAIP Browser from AircraftShapesSVG; colors and stroke widths modified.  Licensed under GNU GPL-3.0-or-later. -->
+  <ns0:title id="title3935">RQ-4 Global Hawk</ns0:title>
+  <ns0:defs id="defs1536" />
+  <ns2:namedview id="base" pagecolor="#ffffff" bordercolor="#666666" borderopacity="1.0" ns1:pageopacity="0.0" ns1:pageshadow="2" ns1:zoom="1.979899" ns1:cx="-14.394674" ns1:cy="126.01653" ns1:document-units="mm" ns1:current-layer="layer9" ns1:document-rotation="0" showgrid="false" ns1:window-width="1920" ns1:window-height="1121" ns1:window-x="2391" ns1:window-y="140" ns1:window-maximized="1" ns1:showpageshadow="2" ns1:pagecheckerboard="0" ns1:deskcolor="#d1d1d1" />
+  <ns0:metadata id="metadata1539">
+    <rdf:RDF>
+      <ns4:Work rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:creator>
+          <ns4:Agent>
+            <dc:title>RexKramer1</dc:title>
+          </ns4:Agent>
+        </dc:creator>
+        <dc:rights>
+          <ns4:Agent>
+            <dc:title>GNU General Public License v3.0</dc:title>
+          </ns4:Agent>
+        </dc:rights>
+        <dc:title>RQ-4 Global Hawk</dc:title>
+      </ns4:Work>
+    </rdf:RDF>
+  </ns0:metadata>
+  <ns0:g ns1:groupmode="layer" id="layer9" ns1:label="Pfade">
+    <ns0:path style="fill:#20CFF5;stroke:#0B3853;stroke-width:1.15;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;fill-opacity:1;fill-rule:evenodd" d="m 20.078623,0.11693042 -0.484426,0.28397386 -0.350791,0.76839992 -0.116931,0.8185129 0.0167,1.1358955 0.01671,3.5580256 L 0.41760891,8.7864856 0.15033937,9.0871639 V 9.5381812 L 3.4410954,9.5882943 18.007285,8.9869377 18.49171,9.387842 19.159884,9.3377291 v 3.4577989 l 0.100226,0.434313 -2.405425,0.434313 -0.01671,-0.868626 h -0.100226 l -0.0167,0.835218 -0.116931,0.0167 0.03341,0.902035 2.021226,0.467721 1.403165,0.05011 1.586912,-0.11693 1.787366,-0.45937 v -0.826865 l -0.07517,-0.0167 v -0.893683 h -0.09187 l -0.0167,0.868626 -2.355313,-0.3842 0.03341,-0.467722 0.02506,-3.4243902 0.643117,-0.00835 0.542891,-0.3591435 14.549483,0.5930043 3.282405,0.016706 L 39.95682,9.0537556 39.672845,8.786486 20.955618,6.6650359 20.972318,2.9817277 20.938908,1.9210019 20.788569,1.0022629 20.471186,0.37584996 Z" id="path3813" />
+  </ns0:g>
+</ns0:svg>

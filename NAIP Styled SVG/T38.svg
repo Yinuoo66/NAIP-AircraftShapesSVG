@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ns0:svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.w3.org/2000/svg" xmlns:ns1="http://www.inkscape.org/namespaces/inkscape" xmlns:ns2="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:ns4="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" width="44" height="44" viewBox="-36 -33 80 80" version="1.1" id="svg1542" ns1:version="1.2.1 (9c6d41e410, 2022-07-14)" ns2:docname="T38 mit Bitmap.svg">
+  <!-- Derived for NAIP Browser from AircraftShapesSVG; colors and stroke widths modified.  Licensed under GNU GPL-3.0-or-later. -->
+  <ns0:title id="title6022">Northrop T-38 Talon</ns0:title>
+  <ns0:defs id="defs1536" />
+  <ns2:namedview id="base" pagecolor="#ffffff" bordercolor="#666666" borderopacity="1.0" ns1:pageopacity="0.0" ns1:pageshadow="2" ns1:zoom="11.2" ns1:cx="159.6875" ns1:cy="152.45536" ns1:document-units="mm" ns1:current-layer="layer2" ns1:document-rotation="0" showgrid="false" ns1:window-width="1920" ns1:window-height="1121" ns1:window-x="2391" ns1:window-y="140" ns1:window-maximized="1" ns1:snap-global="false" ns1:showpageshadow="2" ns1:pagecheckerboard="0" ns1:deskcolor="#d1d1d1" />
+  <ns0:metadata id="metadata1539">
+    <rdf:RDF>
+      <ns4:Work rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:creator>
+          <ns4:Agent>
+            <dc:title>RexKramer1</dc:title>
+          </ns4:Agent>
+        </dc:creator>
+        <dc:rights>
+          <ns4:Agent>
+            <dc:title>GNU General Public License v3.0</dc:title>
+          </ns4:Agent>
+        </dc:rights>
+        <dc:title>Northrop T-38 Talon</dc:title>
+      </ns4:Work>
+    </rdf:RDF>
+  </ns0:metadata>
+  <ns0:g ns1:groupmode="layer" id="layer2" ns1:label="Pfade" style="display:inline">
+    <ns0:path id="path1415" style="opacity:1;fill:#20CFF5;stroke:#0B3853;stroke-width:1.15;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;fill-opacity:1;fill-rule:evenodd" d="M 4.3640085,6.2181894 C 4.4036252,5.1893203 4.4251416,4.1664113 4.3514803,3.1404138 L 4.293015,2.3678379 4.1635565,1.6746076 4.0382739,1.2027099 3.8921107,0.8310382 3.8670544,0.15451221 m -0.00461,-0.0245859 -0.035435,0.70870536 -0.051827,0.0884565 -0.187924,0.73499123 -0.1169305,0.726639 -0.083522,0.7475194 -0.025056,3.1487692 -0.054289,-0.00835 -0.025056,-0.1085781 -0.041761,0.07517 -0.1211067,0.016703 -0.083522,0.083522 -0.07517,0.1670436 0.020881,0.5387149 0.066818,0.4551937 -3.00260607,1.8124212 0.004176,0.6723502 3.07777567,0.2672695 -0.00835,0.872802 0.045937,0.655646 -1.4073411,0.918739 0.02088,0.505306 1.5159196,0.06264 0.050113,0.396729 0.09605,0.496954 h 0.8811522 l 0.100226,-0.496954 0.033409,-0.396729 1.5367998,-0.07935 -0.00418,-0.505307 -1.403165,-0.910386 0.058465,-0.7684 L 4.6312803,10.260639 7.7048798,9.9724894 7.7007047,9.3168437 4.7064508,7.4835418 4.7857964,6.9239462 4.7816213,6.4687528 4.7231563,6.3351181 4.5978737,6.2474203 4.5143519,6.2432452 4.4767671,6.1680758 4.472592,6.2766539 H 4.393246" ns2:nodetypes="ccccccccccccccccccccccccccccccccccccccccccccccccccc" />
+  </ns0:g>
+  <ns0:g ns1:groupmode="layer" id="layer3" ns1:label="Accent">
+    <ns0:path id="path1449" style="fill:none;stroke:#0B3853;stroke-width:0.72;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" d="m 3.8837602,10.999811 -0.1085781,0.141987 0.033409,1.060726 -0.066817,0.09187 0.025056,0.693231 0.058466,0.07517 0.050113,0.760047 0.066817,-0.7684 0.041761,-0.06682 0.016704,-0.709934 -0.050113,-0.07517 0.016704,-1.060726 z m -0.7099345,0.776753 0.1336347,1.520095 M 4.593695,11.743154 4.4433558,13.296659 M 4.693921,7.5169553 4.5101732,8.8867116 4.6271037,10.281525 M 3.0819518,7.5420119 3.2573473,8.9034161 3.1404168,10.248116 m 0.3173828,-5.0280081 0.8686257,0.00835 M 3.532969,3.8085908 3.8837602,3.725069 4.2763125,3.825295 M 3.7167169,2.9316127 3.4745038,3.5496735 3.4410951,6.3476512 3.8921123,6.431173 4.301369,6.3476512 4.3264251,3.4828559 4.025747,2.9149082 Z" />
+  </ns0:g>
+</ns0:svg>

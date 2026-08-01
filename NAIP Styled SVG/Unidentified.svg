@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ns0:svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.w3.org/2000/svg" xmlns:ns1="http://www.inkscape.org/namespaces/inkscape" xmlns:ns2="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:ns4="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" width="44" height="44" viewBox="-25 -27 80 80" version="1.1" id="svg1542" ns1:version="1.2.1 (9c6d41e410, 2022-07-14)" ns2:docname="Unidentified.svg">
+  <!-- Derived for NAIP Browser from AircraftShapesSVG; colors and stroke widths modified.  Licensed under GNU GPL-3.0-or-later. -->
+  <ns0:title id="title7174">Unidentified aircraft</ns0:title>
+  <ns0:defs id="defs1536" />
+  <ns2:namedview id="base" pagecolor="#ffffff" bordercolor="#666666" borderopacity="1.0" ns1:pageopacity="0.0" ns1:pageshadow="2" ns1:zoom="5.6" ns1:cx="162.23214" ns1:cy="158.125" ns1:document-units="mm" ns1:current-layer="layer2" ns1:document-rotation="0" showgrid="true" ns1:window-width="1920" ns1:window-height="1121" ns1:window-x="2391" ns1:window-y="140" ns1:window-maximized="1" ns1:snap-global="false" ns1:showpageshadow="2" ns1:pagecheckerboard="0" ns1:deskcolor="#d1d1d1">
+    <ns1:grid type="xygrid" id="grid1439" />
+  </ns2:namedview>
+  <ns0:metadata id="metadata1539">
+    <rdf:RDF>
+      <ns4:Work rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:creator>
+          <ns4:Agent>
+            <dc:title>RexKramer1</dc:title>
+          </ns4:Agent>
+        </dc:creator>
+        <dc:rights>
+          <ns4:Agent>
+            <dc:title>GNU General Public License v3.0</dc:title>
+          </ns4:Agent>
+        </dc:rights>
+        <dc:title>Unidentified aircraft</dc:title>
+      </ns4:Work>
+    </rdf:RDF>
+  </ns0:metadata>
+  <ns0:g ns1:groupmode="layer" id="layer2" ns1:label="Pfade" style="display:inline">
+    <ns0:path style="fill:#20CFF5;stroke:#0B3853;stroke-width:1.15;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;fill-opacity:1;fill-rule:evenodd" d="M 14.618226,0.45432962 13.76811,2.15456 12.917995,6.4051363 12.870748,10.466063 0.16626549,16.60652 v 1.70023 l 12.79897651,-2.078538 0.244683,5.393125 -4.5425066,2.636221 v 0.850115 l 5.1006916,-0.850115 0.850116,1.70023 0.850115,-1.70023 5.100691,0.850115 v -0.850115 l -4.499569,-2.550346 0.201746,-5.431753 12.798977,2.031291 V 16.60652 L 16.223962,10.51331 16.318456,6.4051363 15.468341,2.15456 Z" id="path1459" ns2:nodetypes="ccccccccccccccccccccccc" />
+  </ns0:g>
+  <ns0:g ns1:groupmode="layer" id="layer3" ns1:label="Schrift" style="display:none">
+    <ns0:text xml:space="preserve" style="font-style:normal;font-weight:normal;font-size:6.8009px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.170023" x="12.910232" y="18.085165" id="text1463">
+      <ns0:tspan ns2:role="line" id="tspan1461" x="12.910232" y="18.085165" style="stroke-width:0.170023">?</ns0:tspan>
+    </ns0:text>
+  </ns0:g>
+  <ns0:g ns1:groupmode="layer" id="layer4" ns1:label="Accent">
+    <ns0:path id="path1494" style="fill:none;fill-opacity:1;stroke:#0B3853;stroke-width:0.72;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" d="m 14.190341,17.255589 0.676526,-0.0084 0.0084,0.818513 -0.659822,0.02506 z m -0.807622,-3.235035 -0.02362,-0.614211 0.779576,-0.307106 0.803199,-0.05906 0.767765,0.318918 0.265764,0.437035 0.06496,0.537435 -0.147647,0.425223 -0.519717,0.584682 -0.354353,0.360258 -0.135835,0.265765 -0.01181,0.77367 -0.637835,0.01772 -0.02362,-0.661458 0.09449,-0.419318 0.259859,-0.366164 0.608305,-0.6024 0.2008,-0.324823 -0.01772,-0.318917 -0.224424,-0.348447 -0.507905,-0.177177 -0.631929,0.159459 z" />
+  </ns0:g>
+</ns0:svg>

@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ns0:svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.w3.org/2000/svg" xmlns:ns1="http://www.inkscape.org/namespaces/inkscape" xmlns:ns2="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:ns4="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" width="44" height="44" viewBox="-30 -29 80 80" version="1.1" id="svg1542" ns1:version="1.2.1 (9c6d41e410, 2022-07-14)" ns2:docname="D328 mit Bitmap.svg">
+  <!-- Derived for NAIP Browser from AircraftShapesSVG; colors and stroke widths modified.  Licensed under GNU GPL-3.0-or-later. -->
+  <ns0:title id="title1392">Dornier 328</ns0:title>
+  <ns0:defs id="defs1536" />
+  <ns2:namedview id="base" pagecolor="#ffffff" bordercolor="#666666" borderopacity="1.0" ns1:pageopacity="0.0" ns1:pageshadow="2" ns1:zoom="3.959798" ns1:cx="153.92199" ns1:cy="179.42834" ns1:document-units="mm" ns1:current-layer="layer2" ns1:document-rotation="0" showgrid="false" ns1:window-width="1920" ns1:window-height="1121" ns1:window-x="2391" ns1:window-y="140" ns1:window-maximized="1" ns1:showpageshadow="2" ns1:pagecheckerboard="0" ns1:deskcolor="#d1d1d1">
+    <ns1:grid type="xygrid" id="grid1414" />
+  </ns2:namedview>
+  <ns0:metadata id="metadata1539">
+    <rdf:RDF>
+      <ns4:Work rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:creator>
+          <ns4:Agent>
+            <dc:title>RexKramer1</dc:title>
+          </ns4:Agent>
+        </dc:creator>
+        <dc:rights>
+          <ns4:Agent>
+            <dc:title>GNU General Public License v3.0</dc:title>
+          </ns4:Agent>
+        </dc:rights>
+        <dc:title>Dornier 328</dc:title>
+      </ns4:Work>
+    </rdf:RDF>
+  </ns0:metadata>
+  <ns0:g ns1:groupmode="layer" id="layer2" ns1:label="Pfade">
+    <ns0:path style="fill:#20CFF5;stroke:#0B3853;stroke-width:1.15;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;stroke-dasharray:none;fill-opacity:1;fill-rule:evenodd" d="M 10.635975,0.0881685 10.043547,0.75029398 9.6863471,1.4995416 9.4685424,2.4578813 9.3988444,3.0503097 9.3814193,7.057912 9.2420237,7.632916 9.1723271,8.1904954 7.4647399,8.1556453 V 6.7616972 L 7.3601928,6.0647222 6.9594324,5.2980517 6.5760977,6.0472987 6.454126,6.7094237 V 8.1730698 L 1.5230339,8.7132248 0.28590393,9.9677798 V 10.21172 l 8.83414967,0.226517 0.1742431,1.533344 0.03485,2.543955 0.069696,1.028038 0.6969753,4.530334 -2.7878968,0.575002 v 0.940916 l 3.1886568,0.261366 3.328053,-0.261366 -0.01743,-0.836369 -2.892445,-0.679549 0.453034,-2.578807 0.383336,-1.951527 0.104546,-1.097734 -0.03485,-2.509108 0.226518,-1.481071 9.025817,-0.139394 L 21.020882,9.9677798 19.853458,8.7132248 14.887515,8.2079189 14.87009,6.8488183 14.765544,6.0472987 14.347359,5.2806272 13.981448,6.0298743 13.842054,6.6919992 V 8.1730698 H 12.134467 L 12.047345,7.6067784 11.925374,7.1450336 11.907949,3.1200063 11.820828,2.4404557 11.611736,1.569238 11.210975,0.73286894 Z" id="path1416" ns2:nodetypes="cccccccccccccccccccccccccccccccccccccccccccccccccccc" />
+  </ns0:g>
+</ns0:svg>
