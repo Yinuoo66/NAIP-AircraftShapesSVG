@@ -33,7 +33,8 @@ using the nearest available `B779` shape.
 Run the public generator against a checkout of the upstream repository:
 
 ```sh
-python3 scripts/vendor_aircraft_shapes_svg.py /path/to/AircraftShapesSVG
+python3 scripts/vendor_aircraft_shapes_svg.py \
+  --source-package-root . /path/to/AircraftShapesSVG
 ```
 
 The generated Swift lookup table and Xcode asset-catalog wrappers are build

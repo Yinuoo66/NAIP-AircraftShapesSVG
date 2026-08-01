@@ -26,7 +26,6 @@ ASSET_CATALOG = (
     / "Resources"
     / "Assets.xcassets"
 )
-DERIVED_ROOT = VENDOR_ROOT / "NAIP Styled SVG"
 SWIFT_CATALOG = (
     PROJECT_ROOT
     / "clients"
@@ -208,62 +207,79 @@ def styled_svg(source: Path) -> bytes:
     return ET.tostring(root, encoding="utf-8", xml_declaration=True)
 
 
-def vendor_upstream(upstream: Path) -> tuple[str, str]:
+def vendor_upstream(
+    upstream: Path,
+    vendor_root: Path = VENDOR_ROOT,
+    *,
+    standalone: bool = False,
+) -> tuple[str, str]:
     shapes_source = upstream / "Shapes SVG"
     if not shapes_source.is_dir() or not (upstream / "LICENSE").is_file():
         raise SystemExit(f"Not an AircraftShapesSVG checkout: {upstream}")
 
-    VENDOR_ROOT.mkdir(parents=True, exist_ok=True)
-    destination = VENDOR_ROOT / "Shapes SVG"
+    vendor_root.mkdir(parents=True, exist_ok=True)
+    destination = vendor_root / "Shapes SVG"
     if destination.exists():
         shutil.rmtree(destination)
     shutil.copytree(shapes_source, destination)
-    for filename in ("LICENSE", "README.md", "Catalogue.png"):
-        shutil.copy2(upstream / filename, VENDOR_ROOT / filename)
+    shutil.copy2(upstream / "LICENSE", vendor_root / "LICENSE")
+    shutil.copy2(upstream / "Catalogue.png", vendor_root / "Catalogue.png")
+    upstream_readme_name = "UPSTREAM_README.md" if standalone else "README.md"
+    shutil.copy2(upstream / "README.md", vendor_root / upstream_readme_name)
 
     revision = git_output(upstream, "rev-parse", "HEAD")
     revision_date = git_output(upstream, "log", "-1", "--format=%cI")
     upstream_note = (
         "# AircraftShapesSVG upstream provenance\n\n"
         "- Repository: https://github.com/RexKramer1/AircraftShapesSVG\n"
+        "- NAIP corresponding source: "
+        "https://github.com/Yinuoo66/NAIP-AircraftShapesSVG\n"
         f"- Vendored revision: `{revision}`\n"
         f"- Upstream revision date: `{revision_date}`\n"
         "- License: GNU GPL-3.0-or-later\n"
         "- Local modifications: generated app copies change fill, stroke color, "
         "and stroke width only; originals in `Shapes SVG/` are unchanged.\n"
     )
-    (VENDOR_ROOT / "UPSTREAM.md").write_text(upstream_note, encoding="utf-8")
+    (vendor_root / "UPSTREAM.md").write_text(upstream_note, encoding="utf-8")
     return revision, revision_date
 
 
-def generate_assets(shapes_directory: Path) -> list[str]:
+def generate_assets(
+    shapes_directory: Path,
+    vendor_root: Path = VENDOR_ROOT,
+    asset_catalog: Path | None = ASSET_CATALOG,
+) -> list[str]:
     source_files = sorted(shapes_directory.glob("*.svg"), key=lambda path: path.stem)
     if not source_files:
         raise SystemExit(f"No SVG files found in {shapes_directory}")
 
-    for existing in ASSET_CATALOG.glob("VATSIMGPL_*.imageset"):
-        shutil.rmtree(existing)
-    if DERIVED_ROOT.exists():
-        shutil.rmtree(DERIVED_ROOT)
-    DERIVED_ROOT.mkdir(parents=True)
+    if asset_catalog is not None:
+        for existing in asset_catalog.glob("VATSIMGPL_*.imageset"):
+            shutil.rmtree(existing)
+    derived_root = vendor_root / "NAIP Styled SVG"
+    if derived_root.exists():
+        shutil.rmtree(derived_root)
+    derived_root.mkdir(parents=True)
 
     for source in source_files:
         source_key = source.stem
         generated_bytes = styled_svg(source)
-        derived_source = DERIVED_ROOT / f"{source_key}.svg"
+        derived_source = derived_root / f"{source_key}.svg"
         derived_source.write_bytes(generated_bytes)
-        imageset = ASSET_CATALOG / f"{asset_name(source_key)}.imageset"
-        imageset.mkdir(parents=True)
-        generated_filename = f"{asset_name(source_key)}.svg"
-        (imageset / generated_filename).write_bytes(generated_bytes)
-        contents = {
-            "images": [{"filename": generated_filename, "idiom": "universal"}],
-            "info": {"author": "xcode", "version": 1},
-            "properties": {"preserves-vector-representation": True},
-        }
-        (imageset / "Contents.json").write_text(
-            json.dumps(contents, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
-        )
+        if asset_catalog is not None:
+            imageset = asset_catalog / f"{asset_name(source_key)}.imageset"
+            imageset.mkdir(parents=True)
+            generated_filename = f"{asset_name(source_key)}.svg"
+            (imageset / generated_filename).write_bytes(generated_bytes)
+            contents = {
+                "images": [{"filename": generated_filename, "idiom": "universal"}],
+                "info": {"author": "xcode", "version": 1},
+                "properties": {"preserves-vector-representation": True},
+            }
+            (imageset / "Contents.json").write_text(
+                json.dumps(contents, ensure_ascii=False, indent=2) + "\n",
+                encoding="utf-8",
+            )
     source_keys = [path.stem for path in source_files]
     manifest = {
         "schema_version": "naip-aircraft-shapes-v1",
@@ -281,7 +297,7 @@ def generate_assets(shapes_directory: Path) -> list[str]:
         "component_fallbacks": COMPONENT_FALLBACKS,
         "modifications": ["fill color", "stroke color", "stroke width"],
     }
-    (VENDOR_ROOT / "naip-manifest.json").write_text(
+    (vendor_root / "naip-manifest.json").write_text(
         json.dumps(manifest, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
     )
     return source_keys
@@ -372,11 +388,29 @@ enum VATSIMAircraftGPLCatalog {{
 
 def main() -> None:
     parser = argparse.ArgumentParser()
+    parser.add_argument(
+        "--source-package-root",
+        type=Path,
+        help="Generate a standalone corresponding-source package at this path",
+    )
     parser.add_argument("upstream", type=Path, help="AircraftShapesSVG Git checkout")
     arguments = parser.parse_args()
-    revision, _ = vendor_upstream(arguments.upstream.resolve())
-    source_keys = generate_assets(VENDOR_ROOT / "Shapes SVG")
-    generate_swift_catalog(source_keys, revision)
+    standalone_root = (
+        arguments.source_package_root.resolve()
+        if arguments.source_package_root is not None
+        else None
+    )
+    output_root = standalone_root or VENDOR_ROOT
+    revision, _ = vendor_upstream(
+        arguments.upstream.resolve(), output_root, standalone=standalone_root is not None
+    )
+    source_keys = generate_assets(
+        output_root / "Shapes SVG",
+        output_root,
+        asset_catalog=None if standalone_root is not None else ASSET_CATALOG,
+    )
+    if standalone_root is None:
+        generate_swift_catalog(source_keys, revision)
     print(f"Vendored and generated {len(source_keys)} AircraftShapesSVG icons at {revision}")
 
 
